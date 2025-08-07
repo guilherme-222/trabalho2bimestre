@@ -23,12 +23,12 @@ public class Jogador : Personagem
 
          if (Input.GetKey(KeyCode.W))
        {
-        transform.position -= new Vector3(0, getVelocidade()* Time.deltaTime, 0);
+        transform.position += new Vector3(0, getVelocidade()* Time.deltaTime, 0);
        }
 
         if (Input.GetKey(KeyCode.S))
        {
-        transform.position += new Vector3(0, getVelocidade()* Time.deltaTime, 0);
+        transform.position -= new Vector3(0, getVelocidade()* Time.deltaTime, 0);
        }
 
     }

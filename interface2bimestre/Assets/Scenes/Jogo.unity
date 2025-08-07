@@ -151,9 +151,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e5eef9cb5f41d44f9ee3a7885e2008f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vidas: 0
-  energia: 0
-  velocidade: 0
+  vidas: 10
+  energia: 100
+  velocidade: 4
 --- !u!50 &117355171
 Rigidbody2D:
   serializedVersion: 5
