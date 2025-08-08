@@ -32,4 +32,13 @@ public class Jogador : Personagem
        }
 
     }
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+       if(other.gameObject.tag == "Inimigo")
+       {
+         int vidas = getVidas() - 1;
+         setVidas(vidas);
+       }
+    }
 }
